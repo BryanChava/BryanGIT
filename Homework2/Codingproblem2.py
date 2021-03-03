@@ -63,7 +63,7 @@ def extract_date(date) -> object:
 date = input()
 
 while (date != "-1"):
-    new_date = extract_date(date)
+    new_date = extract_date
 
     if new_date != "":
         print(new_date)
