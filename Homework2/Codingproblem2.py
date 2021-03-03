@@ -95,32 +95,3 @@ for i in file_dates:
 
     if new_date != "":
         print(new_date)
-
-# part-c
-
-file = open('ParsedDates.txt', 'w')
-
-for i in file_dates:
-    if i == "-1":
-        break
-    else:
-        new_date = extract_date(i)
-        if new_date != "":
-            file.write(new_date + "\n")
-
-file.close()
-
-file = open('ParsedDates.txt', 'r')
-file_parsed_dates = []
-
-file_parsed_dates = file.readlines()
-
-file.close()
-
-print("Input file content:\n")
-for i in file_dates:
-    print(i)
-
-print("\nOutput file content:\n")
-for i in file_parsed_dates:
-    print(i)
