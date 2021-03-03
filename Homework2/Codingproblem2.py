@@ -82,7 +82,7 @@ file.close()
 for i in range(len(file_dates) - 1):
     file_dates[i] = file_dates[i][:-1]
 
-print("Input file content:\n")
+print("fileredacted:\n")
 for i in file_dates:
     print(i)
 
