@@ -3,7 +3,7 @@
 # FINAL PROJ. PART 2
 
 import csv
-from datatime import itemgetter
+from operator import itemgetter
 
 # substitution and creating lists to pull the csv data. mnL = manufacturerlist, peL= price list, sdL= service list.
 mnL = []
