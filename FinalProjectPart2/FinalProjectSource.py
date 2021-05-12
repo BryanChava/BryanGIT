@@ -109,4 +109,4 @@ while usermanufacture != "q":
         print("No such item in Inventory")
     usermanufacture = str(input("Enter your manufacturer, or q to exit query: "))
     usertype = str(input("Please enter your item type: "))
-# end
+# end 
